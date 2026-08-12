@@ -1,0 +1,38 @@
+# Foundry files
+/out
+/cache
+/broadcast
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbds.db
+
+# Node (if using Hardhat/ethers alongside)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dependencies
+/lib/
+
+# Build artifacts
+*.o
+*.a
+*.so

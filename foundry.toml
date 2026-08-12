@@ -1,0 +1,20 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+test = "test"
+cache_dir = "cache"
+solc = "0.8.25"
+
+[profile.default.fuzz]
+runs = 256
+max_test_rejects = 65536
+seed = 0x3e8
+
+[profile.default.invariant]
+runs = 256
+depth = 15
+fail_on_revert = false
+
+[rpc_endpoints]
+localhost = "http://127.0.0.1:8545"
